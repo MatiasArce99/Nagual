@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nagual Rock</title>
+    <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/estilos.css">   
+</head>
+<body>
+    <header class="header">
+        <img class="header__logo" src="../pictures/Nagual.jpg" alt="Logo de Nagual">
+        <a href="#lista" class="header__icono">
+            <span class="jam jam-menu"></span>
+        </a>
+        <nav class="nav" id="lista">
+            <ul class="header__ul">
+                <li>
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="Noticias.html">Noticias</a>
+                </li>
+                <li>
+                    <a href="Discografia.html">Discografía</a>
+                </li>
+                <li>
+                    <a href="Galeria.html">Galería</a>
+                </li>
+                <li>
+                    <a href="Contacto.html">Contacto</a>
+                </li>
+                <li class="itemOculto">
+                    <a href="#cerrado">❌cerrar</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Nombre y Apellido</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese nombre y apellido">
+              </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="ejemplo@gmail.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <div>
+                <button type="button" class="btn btn-primary">Enviar</button>
+              </div>
+        </section>
+    </main>
+    <!--<main class="main">
+        <section class="contacto">
+            <form>
+                <div>
+                    <label for="nombre">Nombre y Apellido:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre y Apellido" required>
+                </div>
+                <div>
+                    <label for="correo">Correo Electrónico:</label>
+                    <input type="email" id="correo" name="correo" placeholder="Ingrese su correo" required>
+                </div>
+                <div>
+                    <label for="provincia">Provincia/Localidad</label>
+                    <select name="" id="provincia">
+                        <option value="">Seleccione</option>
+                        <option value="">Buenos Aires</option>
+                        <option value="">CABA</option>
+                        <option value="">Catamarca</option>
+                        <option value="">Chaco</option>
+                        <option value="">Chubut</option>
+                        <option value="">Córdoba</option>
+                        <option value="">Corrientes</option>
+                        <option value="">Entre Ríos</option>
+                        <option value="">Formosa</option>
+                        <option value="">Jujuy</option>
+                        <option value="">La Pampa</option>
+                        <option value="">La Rioja</option>
+                        <option value="">Mendoza</option>
+                        <option value="">Misiones</option>
+                        <option value="">Neuquén</option>
+                        <option value="">Río Negro</option>
+                        <option value="">Salta</option>
+                        <option value="">San Juan</option>
+                        <option value="">San Luis</option>
+                        <option value="">Santa Cruz</option>
+                        <option value="">Santa Fe</option>
+                        <option value="">Rosario</option>
+                        <option value="">Santiago del Estero</option>
+                        <option value="">Tucumán</option>
+                        <option value="">Tierra del Fuego</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="">Comentario</label>
+                    <textarea name="comentario" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                    <button>Enviar</button>
+                </div>
+            </form>
+        </section>
+    </main>-->
+    <footer class="footer">
+        <p class="footer__parrafo">Enlaces a Redes Sociales</p>
+        <div class="footer__redes" id="redes">
+            <a href="https://www.instagram.com/nagualoficial/?hl=es" target="_blank">Instagram</a>
+            <a href="https://www.facebook.com/NagualOficial" target="_blank">Facebook</a>
+            <a href="https://www.youtube.com/channel/UCn7yT5xCSoOaly2NJdLlqig" target="_blank">Youtube</a>
+        </div>
+    </footer>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

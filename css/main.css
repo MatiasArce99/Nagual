@@ -1,0 +1,84 @@
+.header {
+  background-color: black; }
+  .header .nav {
+    justify-content: flex-end; }
+  .header__logo {
+    width: 150px;
+    height: 150px; }
+  .header__ul {
+    font-family: 'Poppins', sans-serif;
+    background-color: #2a1c02;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 5px;
+    font-size: 20px;
+    margin-bottom: 0; }
+  .header__icono {
+    color: orange;
+    text-decoration: none;
+    font-size: 32px;
+    display: none; }
+  .header .itemOculto {
+    display: none; }
+
+#lista li {
+  padding-right: 25px;
+  text-decoration: none; }
+
+#lista a {
+  color: white;
+  text-decoration: none; }
+
+.cuerpo {
+  background-color: darkgoldenrod;
+  min-height: 100vh; }
+
+#caligrafia h1 {
+  font-family: 'Poppins',sans-serif;
+  font-weight: bold;
+  padding-top: 2rem; }
+
+#caligrafia p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  text-align: left;
+  line-height: 2; }
+
+#caligrafia span {
+  font-weight: bold; }
+
+#caligrafia ol li {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  list-style: none;
+  text-align: center;
+  justify-content: left;
+  line-height: 2; }
+
+#foto-integrantes img {
+  padding-top: 2rem; }
+
+.footer {
+  background-color: black; }
+  .footer__parrafo {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding: 1rem 1rem; }
+  .footer__redes {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: right;
+    gap: 2rem;
+    margin-right: 1rem; }
+
+#redes a {
+  color: darkgoldenrod;
+  text-decoration: none;
+  padding-bottom: 1rem; }
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box; }

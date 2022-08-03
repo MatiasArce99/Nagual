@@ -1,0 +1,23 @@
+.footer{
+    background-color: $colorFooter;
+
+    &__parrafo{
+        font-family: 'Poppins', sans-serif;
+        color: $colorLetraFooter;
+        padding: 1rem 1rem;
+    }
+    
+    &__redes{
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        justify-content: right;
+        gap: 2rem;
+        margin-right: 1rem;
+    }
+}
+
+#redes a{
+    color: $colorCuerpo;
+    text-decoration: none;
+    padding-bottom: 1rem;
+}

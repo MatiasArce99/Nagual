@@ -1,0 +1,34 @@
+.cuerpo{
+    background-color: $colorCuerpo;
+    min-height: 100vh;
+}
+
+#caligrafia h1{
+    font-family: 'Poppins',sans-serif;
+    font-weight: bold;
+    padding-top: 2rem;    
+}
+
+#caligrafia p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    text-align: left;
+    line-height: 2;
+}
+
+#caligrafia span{
+    font-weight: bold;
+}
+
+#caligrafia ol li{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    list-style: none;
+    text-align: center;
+    justify-content: left;
+    line-height: 2;
+}
+
+#foto-integrantes img{
+    padding-top: 2rem;    
+}

@@ -1,0 +1,280 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.header{
+    background-image: linear-gradient(to left, rgb(56, 3, 3), black);  
+}
+
+.header__logo{
+    width: 150px;
+    height: 150px;
+}
+
+.header__ul{
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 5px;    
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.header__icono{
+    color: orange;
+    text-decoration: none;
+    font-size: 32px;
+    display: none;      
+}
+
+#lista li{
+    padding-right: 25px;
+    text-decoration: none;    
+}
+
+#lista a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.nav{
+    justify-content: flex-end;
+}
+
+#caligrafia h1{
+    font-family: 'Poppins',sans-serif;
+    font-weight: bold;
+    padding-top: 2rem;    
+}
+
+#caligrafia p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    text-align: left;
+    line-height: 2;
+}
+
+#caligrafia span{
+    font-weight: bold;
+}
+
+#caligrafia ol li{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    list-style: none;
+    text-align: center;
+    justify-content: left;
+    line-height: 2;
+}
+
+#foto-integrantes img{
+    padding-top: 2rem;    
+}
+
+#informacion-noticias h1{
+    padding-top: 2rem;
+}
+
+#informacion-noticias p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    text-align: left;
+}
+
+#informacion-noticias ul li{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    list-style: none;
+}
+
+#informacion-noticias span{
+    font-weight: bold;
+}
+
+#foto-show img{
+    padding-top: 2rem;
+}
+
+.main{
+    background-color: darkgoldenrod;
+    min-height: 100vh;
+}
+
+.inicio1{
+    display: flex;
+    flex-direction: row;
+    padding: 1.5rem 1.5rem;
+}
+
+.inicio1__izq{
+    font-family: 'Poppins', sans-serif;
+    padding-left: 1rem;
+    width: 50%;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.inicio1__der{
+    padding-left: 2rem;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#informacion h1{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+#informacion ol li {   
+    text-align: left;
+    justify-content: left;
+    list-style: none;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    font-style: italic;
+}
+
+#informacion span {
+    font-weight: bold;
+}
+
+.inicio1__integrantes{
+    margin: 0 auto;
+}
+
+.itemOculto{
+    display: none;
+}
+
+
+.footer{
+    background-image: linear-gradient(to left, rgb(56, 3, 3), black);   
+}
+
+.footer__parrafo{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding: 1rem 1rem;
+}
+
+.footer__redes{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: right;
+    gap: 2rem;
+    margin-right: 1rem;
+}
+
+#redes a{
+    color: rgb(247, 178, 4);
+    text-decoration: none;
+    padding-bottom: 1rem;
+}
+
+.discografia{
+    display: flex;
+    flex-direction: row;
+}
+
+.discografia__informacion{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    padding-left: 2rem;
+    width: 50%;
+    padding-top: 2rem;
+    line-height: 2;
+}
+
+.discografia__video{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;    
+    text-align: center;
+    width: 50%;
+    padding-top: 2rem;
+}
+
+.seccion-Fotos{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    padding-left: 1rem;
+}
+
+#tituloFotos h1{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.contacto{
+    padding-left: 1rem;
+    padding-top: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 2;
+}
+
+@media screen and (max-width: 599px){
+       
+    .nav{
+        display: none;
+        background-color: rgb(59, 6, 6);
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000000;
+        width: 30%;
+        height: 100vh;
+        gap: 1rem;        
+    }
+
+    .nav:target{
+        display: block;
+    }
+
+    .header__ul{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .header__icono{
+        display: block;
+    }
+
+    .main{
+        min-height: 100vh;
+    }
+
+    .itemOculto{
+        display: block;
+    }
+
+    .inicio1{
+        flex-direction: column;
+    }
+
+    .inicio1__izq{
+        width: 100%;
+    }
+
+    .inicio1__der{
+        width: 100%;
+        padding-top: 1rem;      
+    }
+
+    .inicio1__integrantes{
+        width: 250px;
+        height: 300px;        
+    }
+
+    .inicio1__show{
+        width: 250px;
+        height: 300px;
+    }
+}
