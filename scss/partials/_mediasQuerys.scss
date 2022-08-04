@@ -1,0 +1,17 @@
+@media screen and (min-width: 576px){
+    .nav{
+        display: none;
+        background-color: rgb(59, 6, 6);
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000000;
+        width: 30%;
+        height: 100vh;
+        gap: 1rem;
+        
+        .nav:target{
+            display: block;
+        }
+    }
+}
