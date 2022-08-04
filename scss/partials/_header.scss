@@ -12,8 +12,8 @@
 
     &__ul{
         font-family: 'Poppins', sans-serif;
-        background-color: $colorHeaderUl;
-        color: black;
+        background-color: $colorHeader;
+        /*color: $colorHeader;*/
         list-style: none;
         display: flex;
         flex-direction: row;

@@ -3,32 +3,47 @@
     min-height: 100vh;
 }
 
-#caligrafia h1{
-    font-family: 'Poppins',sans-serif;
-    font-weight: bold;
-    padding-top: 2rem;    
+.inicio1{
+    display: flex;
+    flex-direction: row;
+    padding: 1.5rem 1.5rem;
+
+    &__izq{
+        font-family: 'Poppins', sans-serif;
+        padding-left: 1rem;
+        width: 50%;
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    
+    &__der{
+        padding-left: 2rem;
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
 }
 
-#caligrafia p{
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    text-align: left;
-    line-height: 2;
+.inicio1__integrantes{
+    margin: 0 auto;
 }
 
-#caligrafia span{
-    font-weight: bold;
-}
-
-#caligrafia ol li{
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    list-style: none;
+#informacion h1{
     text-align: center;
-    justify-content: left;
-    line-height: 2;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
 }
 
-#foto-integrantes img{
-    padding-top: 2rem;    
+#informacion ol li {   
+    text-align: left;
+    justify-content: left;
+    list-style: none;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    font-style: italic;
+}
+
+#informacion span {
+    font-weight: bold;
 }
