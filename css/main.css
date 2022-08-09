@@ -1,11 +1,5 @@
-* {
-  padding: 0px;
-  margin: 0px;
-  box-sizing: border-box;
-}
-
 .header {
-  background-color: black;
+  background-image: linear-gradient(to left, #3c0101, black);
 }
 
 .header .nav {
@@ -19,8 +13,7 @@
 
 .header__ul {
   font-family: 'Poppins', sans-serif;
-  background-color: black;
-  /*color: $colorHeader;*/
+  /*background-color: $colorHeader;*/
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -37,7 +30,7 @@
   display: none;
 }
 
-.itemOculto {
+.header .itemOculto {
   display: none;
 }
 
@@ -52,10 +45,26 @@
 }
 
 .cuerpo {
-  background-color: darkgoldenrod;
+  background-image: url(../pictures/Curva-Line.svg);
   min-height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
+/*.inicio{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    &__informacion ol li{
+        list-style: none;
+    }
+
+    &__integrantes img{
+       border-radius: 25px; 
+    }
+}*/
 .inicio1 {
   display: flex;
   flex-direction: row;
@@ -80,6 +89,8 @@
 
 .inicio1__integrantes {
   margin: 0 auto;
+  border-radius: 20px;
+  margin-top: 2rem;
 }
 
 #informacion h1 {
@@ -102,7 +113,7 @@
 }
 
 .footer {
-  background-color: black;
+  background-image: linear-gradient(to left, #3c0101, black);
 }
 
 .footer__parrafo {
@@ -167,4 +178,10 @@
     width: 250px;
     height: 300px;
   }
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }

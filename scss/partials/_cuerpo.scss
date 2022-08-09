@@ -1,7 +1,24 @@
 .cuerpo{
-    background-color: $colorCuerpo;
+    background-image: url(../pictures/Curva-Line.svg);
     min-height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
+
+/*.inicio{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    &__informacion ol li{
+        list-style: none;
+    }
+
+    &__integrantes img{
+       border-radius: 25px; 
+    }
+}*/
 
 .inicio1{
     display: flex;
@@ -27,6 +44,8 @@
 
 .inicio1__integrantes{
     margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 2rem;
 }
 
 #informacion h1{

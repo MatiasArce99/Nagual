@@ -1,5 +1,5 @@
 .footer{
-    background-color: $colorFooter;
+    background-image: map-get($degradado, d1);
 
     &__parrafo{
         font-family: 'Poppins', sans-serif;
