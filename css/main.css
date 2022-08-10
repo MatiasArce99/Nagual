@@ -44,7 +44,7 @@
   text-decoration: none;
 }
 
-.cuerpo {
+.cuerpo, .cuerpoNoticia {
   background-image: url(../pictures/Curva-Line.svg);
   min-height: 100vh;
   background-repeat: no-repeat;
@@ -52,19 +52,6 @@
   background-size: cover;
 }
 
-/*.inicio{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-
-    &__informacion ol li{
-        list-style: none;
-    }
-
-    &__integrantes img{
-       border-radius: 25px; 
-    }
-}*/
 .inicio1 {
   display: flex;
   flex-direction: row;
@@ -87,7 +74,7 @@
   justify-content: center;
 }
 
-.inicio1__integrantes {
+.inicio1__integrantes, .fotoShow {
   margin: 0 auto;
   border-radius: 20px;
   margin-top: 2rem;
@@ -110,6 +97,28 @@
 
 #informacion span {
   font-weight: bold;
+}
+
+.inicioNoticias {
+  display: flex;
+  flex-direction: row;
+  padding: 1.5rem 1.5rem;
+}
+
+.inicioNoticias__Informacion {
+  font-family: 'Poppins', sans-serif;
+  padding-left: 1rem;
+  width: 50%;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.inicioNoticias__Show {
+  padding-left: 2rem;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .footer {
@@ -174,7 +183,7 @@
     width: 100%;
     padding-top: 1rem;
   }
-  .inicio1__integrantes {
+  .inicio1__integrantes, .fotoShow {
     width: 250px;
     height: 300px;
   }
