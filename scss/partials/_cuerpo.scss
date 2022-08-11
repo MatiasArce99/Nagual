@@ -85,4 +85,47 @@
     @extend .inicio1__integrantes;
 }
 
+#ShowInformacion h1{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
 
+#ShowInformacion p{
+    font-size: 18px;
+}
+
+#ShowInformacion ul li{
+    text-align: left;
+    justify-content: center;
+    line-height: 1.5;
+}
+
+#ShowInformacion span{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.cuerpoDiscografia{
+    @extend .cuerpo;
+}
+
+.discografia{
+    @include flex;
+
+    &__informacion{
+        font-family: 'Poppins', sans-serif;
+        padding-left: 1rem;
+        width: 50%;
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    &__video{
+        padding-left: 2rem;
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}

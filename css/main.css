@@ -1,3 +1,9 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
 .header {
   background-image: linear-gradient(to left, #3c0101, black);
 }
@@ -121,6 +127,22 @@
   justify-content: center;
 }
 
+#ShowInformacion h1 {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+#ShowInformacion ul li {
+  text-align: left;
+  justify-content: center;
+}
+
+#ShowInformacion span {
+  font-weight: bold;
+  font-style: italic;
+}
+
 .footer {
   background-image: linear-gradient(to left, #3c0101, black);
 }
@@ -187,10 +209,4 @@
     width: 250px;
     height: 300px;
   }
-}
-
-* {
-  padding: 0px;
-  margin: 0px;
-  box-sizing: border-box;
 }
