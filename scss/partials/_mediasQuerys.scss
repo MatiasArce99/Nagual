@@ -9,28 +9,32 @@
         width: 50%;
         height: 100vh;
         gap: 1rem;        
-    }
 
+        .header__ul{
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        .header__icono{
+            display: block;            
+        }        
+
+        .itemOculto{
+            display: block;
+        }
+
+        #cruz a{
+            display: block;
+        }
+    }    
+        
     .nav:target{
-        display: block;
-    }
-
-    .header__ul{
-        flex-direction: column;
-        gap: 1rem;
-    }
-    
-    .header__icono{
         display: block;
     }
 
     .main{
         min-height: 100vh;
-    }
-
-    .itemOculto{
-        display: block;
-    }
+        }
 
     .inicio1{
         flex-direction: column;

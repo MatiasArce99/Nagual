@@ -220,9 +220,6 @@
     height: 100vh;
     gap: 1rem;
   }
-  .nav:target {
-    display: block;
-  }
   .header__ul {
     flex-direction: column;
     gap: 1rem;
@@ -230,11 +227,17 @@
   .header__icono {
     display: block;
   }
-  .main {
-    min-height: 100vh;
-  }
   .itemOculto {
     display: block;
+  }
+  #cruz a {
+    display: block;
+  }
+  .nav:target {
+    display: block;
+  }
+  .main {
+    min-height: 100vh;
   }
   .inicio1 {
     flex-direction: column;
