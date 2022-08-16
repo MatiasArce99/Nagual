@@ -8,27 +8,23 @@
         z-index: 1000000;
         width: 50%;
         height: 100vh;
-        gap: 1rem;        
-
-        .header__ul{
-            flex-direction: column;
-            gap: 1rem;
-        }
-        
-        .header__icono{
-            display: block;            
-        }        
-
-        .itemOculto{
-            display: block;
-        }
-
-        #cruz a{
-            display: block;
-        }
+        gap: 1rem;
     }    
         
     .nav:target{
+        display: block;
+    }            
+
+    .header__ul{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .header__icono{
+        display: block;            
+    }        
+
+    .itemOculto{
         display: block;
     }
 
