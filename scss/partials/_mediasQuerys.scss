@@ -1,7 +1,7 @@
 @media screen and (max-width: 599px){
     .nav{
         display: none;
-        background-color: $colorFooter;
+        background-color: $colorHeader;
         position: fixed;
         top: 0;
         left: 0;
@@ -47,6 +47,53 @@
         &__integrantes{
             width: 250px;
             height: 300px;        
+        }
+    }
+
+    .inicioNoticias{
+        flex-direction: column;
+
+        &__Informacion{
+            width: 100%;
+        }
+
+        &__Show{
+            width: 250px;
+            height: 300px;
+            margin-bottom: 2rem;
+        }
+    }
+
+    .discografia{
+        flex-direction: column;
+
+        &__informacion{
+            width: 100%;
+        }
+
+        &__video{
+            margin-bottom: 2rem;
+            padding-right: 1rem;
+            padding-left: 1rem;
+            margin: 0 auto;
+            width: 250px;
+            height: 300px;
+        }
+    }
+    
+    .fotos{
+        flex-direction: column;
+
+        &__titulo{
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        &__galeria img{
+            width: 300px;
+            height: 300px;
+            padding-left: 1px;
+            padding-right: 8px;
         }
     }
 }

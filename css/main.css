@@ -250,4 +250,42 @@
     width: 250px;
     height: 300px;
   }
+  .inicioNoticias {
+    flex-direction: column;
+  }
+  .inicioNoticias__Informacion {
+    width: 100%;
+  }
+  .inicioNoticias__Show {
+    width: 250px;
+    height: 300px;
+    margin-bottom: 2rem;
+  }
+  .discografia {
+    flex-direction: column;
+  }
+  .discografia__informacion {
+    width: 100%;
+  }
+  .discografia__video {
+    margin-bottom: 2rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin: 0 auto;
+    width: 250px;
+    height: 300px;
+  }
+  .fotos {
+    flex-direction: column;
+  }
+  .fotos__titulo {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .fotos__galeria img {
+    width: 300px;
+    height: 300px;
+    padding-left: 1px;
+    padding-right: 8px;
+  }
 }
